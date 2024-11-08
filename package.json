@@ -1,0 +1,26 @@
+{
+  "name": "game-server-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "pm2 start app.js --name game-server-node",
+    "stop": "pm2 stop game-server-node",
+    "restart": "pm2 restart game-server-node",
+    "delete": "pm2 delete game-server-node"
+  },
+  "keywords": [],
+  "author": "Millan William",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "pm2": "^5.1.0"
+  }
+}

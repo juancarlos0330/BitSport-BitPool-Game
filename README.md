@@ -1,2 +1,1 @@
-# BitSport-BitPool-Game
-This is bitpool game using pure javascript
+# bitsport pool game
